@@ -102,7 +102,7 @@
 
 #### To determine the maximum number of nodes n in a level i:
 
-$$ n_level = {2^i} $$
+$$ n_{level} = {2^i} $$
 
 #### To determine the maximum number of nodes n in a binary tree of height h and with levels i:
 
@@ -110,7 +110,7 @@ $$ n_{tree} = {2^0 + 2^1 + ... + 2^h} $$
 
 *Which is equal to...*
 
-$$ n_{tree} = {2^(h + 1) - 1} $$
+$$ n_{tree} = {2^{h + 1} - 1} $$
 
 *That is equal to...*
 
@@ -120,7 +120,7 @@ $$ n_{tree} = {2^i - 1} $$
 
 *From equation (ii)...*
 
-$$ n_{tree} = {2^(h + 1) - 1} $$
+$$ n_{tree} = {2^{h + 1} - 1} $$
 
 &there4;
 
