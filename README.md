@@ -31,9 +31,9 @@
 
 ```
 	Given an array representing a binary tree:
-			  	  +_0_+_1_+_2_+_3_+_4_+_5_+_6_+
+			  	  +-0-+-1-+-2-+-3-+-4-+-5-+-6-+
 		binaryTreeArray = | 2 | 4 | 1 | 5 | 8 | 7 | 9 |;
-			  	  +___+___+___+___+___+___+___+
+			  	  +---+---+---+---+---+---+---+
 	To get the data in either the left and right children, the
 	following logic is used:
 		/* rootBinaryTree == 2 */
@@ -106,15 +106,15 @@ $$ n_level = {2^i} $$
 
 #### To determine the maximum number of nodes n in a binary tree of height h and with levels i:
 
-$$ n_tree = {2^0 + 2^1 + ... + 2^h} $$ =======> (i)
+$$ n_tree = {2^0 + 2^1 + ... + 2^h} $$
 
 *Which is equal to...*
 
-$$ n_tree = {2^(h + 1) - 1} $$ =======> (ii)
+$$ n_tree = {2^(h + 1) - 1} $$
 
 *That is equal to...*
 
-$$ n_tree = {2^i - 1} $$ =======> (iii)
+$$ n_tree = {2^i - 1} $$
 
 #### To determine the maximum height h of a binary tree
 
@@ -136,13 +136,13 @@ $$ (h + 1)log 2 = {log (n + 1)} $$
 
 &there4;
 
-$$ h + 1 = {log (n + 1) \over log 2} $$
+$$ h + 1 = {\log (n + 1) \over log 2} $$
 
-$$ h = {log (n + 1) \over log 2} - 1 $$
+$$ h = {\log (n + 1) \over \log 2} - 1 $$
 
 *Which is simply...*
 
-$$ h = {log_2 (n + 1) - 1} $$ =======> (iv)
+$$ h = {\log_2 (n + 1) - 1} $$
 
 ## Navigating your Binary Tree
 
