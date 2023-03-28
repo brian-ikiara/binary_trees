@@ -106,37 +106,37 @@ $$ n_level = {2^i} $$
 
 #### To determine the maximum number of nodes n in a binary tree of height h and with levels i:
 
-$$ n_tree = {2^0 + 2^1 + ... + 2^h} $$
+$$ n_{tree} = {2^0 + 2^1 + ... + 2^h} $$
 
 *Which is equal to...*
 
-$$ n_tree = {2^(h + 1) - 1} $$
+$$ n_{tree} = {2^(h + 1) - 1} $$
 
 *That is equal to...*
 
-$$ n_tree = {2^i - 1} $$
+$$ n_{tree} = {2^i - 1} $$
 
 #### To determine the maximum height h of a binary tree
 
 *From equation (ii)...*
 
-$$ n_tree = {2^(h + 1) - 1} $$
+$$ n_{tree} = {2^(h + 1) - 1} $$
 
 &there4;
 
-$$ 2^(h + 1) = {n + 1} $$
+$$ 2^{h + 1} = {n + 1} $$
 
 *Introduce logarithms...*
 
-$$ log 2^(h + 1) = {log (n + 1)} $$
+$$ \log 2^{h + 1} = {\log (n + 1)} $$
 
 *Can be written as...*
 
-$$ (h + 1)log 2 = {log (n + 1)} $$
+$$ (h + 1)\log 2 = {\log (n + 1)} $$
 
 &there4;
 
-$$ h + 1 = {\log (n + 1) \over log 2} $$
+$$ h + 1 = {\log (n + 1) \over \log 2} $$
 
 $$ h = {\log (n + 1) \over \log 2} - 1 $$
 
