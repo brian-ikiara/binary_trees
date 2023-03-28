@@ -96,7 +96,7 @@
 
 [^1]: In Set Theory, a binary tree can be defined as a tuple(L, S, R) where L and R are the *left* and *right* children and S is a singleton(*set containing only one element*) defining the *root* of the binary tree. ***More info***@[Wikipedia](https://en.wikipedia.org/wiki/Binary_tree)
 [^2]: A level is defined by nodes at the same depth/height(*the number of nodes between the root and the node in question*). It can be easily seen that the maximum depth, i.e. number of nodes between the root to the last node of the tree, is the height of the tree.
-[^3]: The minimum and maximum heights of the degenerate binary tree will be given as $$ \log_2 n $$ and $$ n - 1 $$ respectively
+[^3]: The minimum and maximum heights of the degenerate binary tree will be given as log n and n - 1 respectively
 
 ## A little Math...
 
