@@ -74,7 +74,4 @@ int binary_tree_is_perfect(const binary_tree_t *);
 binary_tree_t *binary_tree_sibling(binary_tree_t *);
 binary_tree_t *binary_tree_uncle(binary_tree_t *);
 
-/* Additional prototypes */
-binary_tree_t *binary_tree_swap(binary_tree_t *, binary_tree_t *);
-
 #endif
