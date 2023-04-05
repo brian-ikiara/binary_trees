@@ -78,5 +78,6 @@ binary_tree_t *binary_tree_uncle(binary_tree_t *);
 binary_tree_t *swap_nodes(binary_tree_t *, binary_tree_t *);
 size_t is_max(size_t, size_t);
 size_t height_finder(const binary_tree_t *);
+size_t depth_finder(const binary_tree_t *);
 
 #endif
