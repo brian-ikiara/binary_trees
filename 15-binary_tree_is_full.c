@@ -13,6 +13,7 @@
  */
 int binary_tree_is_full(const binary_tree_t *tree)
 {
+	/* NB: An empty Binary Tree is a full BT */
 	if (tree == NULL)
 		return (0);
 	if (tree->left == NULL && tree->right == NULL)
