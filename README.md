@@ -32,7 +32,7 @@
 ```
 	Given an array representing a binary tree:
 			  	  +-0-+-1-+-2-+-3-+-4-+-5-+-6-+
-		binaryTreeArray = | 2 | 4 | 1 | 5 | 8 | 7 | 9 |;
+		binaryTreeArray = | 2 | 4 | 1 | 5 | 8 | 7 | 9 |
 			  	  +---+---+---+---+---+---+---+
 	To get the data in either the left and right children, the
 	following logic is used:
@@ -56,16 +56,16 @@
 ### Visual representation of a Binary Tree
 
 ```
-				   root ==> [rootNode]
+				   root ==> [rootNode] ..................................................L0
 				+_______________/\_______________+
 				|		  	         |
-      		parents ==> [leftFirstNode]	          [rightFirstNode]
+      		parents ==> [leftFirstNode]	          [rightFirstNode] ..............................L1
       	      		+________/\_______+               +________/\_________+
       	      		|		  |	          |		      |
-      	children ==> [leftLFNode]       [NULL]        [leftRFNode]	[rightRFNode]
+      	children ==> [leftLFNode]       [NULL]        [leftRFNode]	[rightRFNode] ...................L2
 				   		+________/\_______+
 						|		  |
-			   leaf nodes ==> [leftLRFNode]    [rightLRFNode]
+			   leaf nodes ==> [leftLRFNode]    [rightLRFNode] ...............................L3
 ```
 
 ## Definition of terms
